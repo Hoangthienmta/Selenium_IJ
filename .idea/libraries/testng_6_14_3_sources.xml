@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/../../Setup_Selenium_IJ/testng-6.14.3.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/Libraries/selenium-api-4.10.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
