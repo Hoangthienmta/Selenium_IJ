@@ -93,21 +93,21 @@ public class Topic_02_Selenium_Locator {
     @Test
     public void TC_09_Xpath() {
         //Xpath vs Id
-        driver.findElement(By.xpath("//input[@id='FirstName']")).click();
+        driver.findElement(By.xpath("//input[@id='FirstName']"));
 
         //Css vs Class
-        driver.findElement(By.cssSelector("div[class='page-title']")).click();
-        driver.findElement(By.cssSelector("div.page-title")).click();
-        driver.findElement(By.cssSelector(".page-title")).click();
+        driver.findElement(By.cssSelector("div[class='page-title']"));
+        driver.findElement(By.cssSelector("div.page-title"));
+        driver.findElement(By.cssSelector(".page-title"));
 
         //Css vs Name
-        driver.findElement(By.cssSelector("input[name='FirstName']")).click();
+        driver.findElement(By.cssSelector("input[name='FirstName']"));
 
         //Css vs tagName
-        driver.findElement(By.cssSelector("input")).click();
+        driver.findElement(By.cssSelector("input"));
 
         //Css vs link
-        driver.findElement(By.cssSelector("a[href='/customer/addresses']")).click();
+        driver.findElement(By.cssSelector("a[href='/customer/addresses']"));
     }
 
 
