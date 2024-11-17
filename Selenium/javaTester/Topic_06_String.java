@@ -9,6 +9,7 @@ public class Topic_06_String {
 
     //String là kiểu đối tượng, vi sao, vì khi khởi tạo có thể sử dụng từ khóa new để khởi tạo
     String myObject = new String("Test String");
+    String objectTest = "Test String";
     // Cách new sẽ tốn bộ nhớ hơn, nó sẽ không check đã tồn tại hay chưa trong String Pool
     String version1 = "1.2.5.7";
     String version2 = "1.2.5.8";
@@ -17,6 +18,10 @@ public class Topic_06_String {
 
     //Học về String buffer và String builder
     // -> Sẽ liên quan đến vấn đề immutable của chuỗi, vì các thành phần như kiểu nối chuỗi các thứ 
-
+    // tại sao phải dùng cái này
+    // Lí do chính vì tính immutable của chuỗi -> Không tạo đối tượng mới khi thay đổi nội dung của chuỗi
+    // Khác nhau giữa nó là gì:
+    //StringBuffer : Chậm hơn, dùng trong môi trường đa luồng, đảm bảo tính đồng bộ hóa
+    //String builder: Nhanh hơn, dùng trong môi trường đơn luồng
 
 }
